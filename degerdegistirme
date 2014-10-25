@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+	//girilen sayilarin degerlerini degistiren program
+	int x,y,z;
+	printf("x degerini girin:"); scanf("%d",&x);
+	printf("y degerini girin:"); scanf("%d",&y);
+	z=x;
+	x=y;
+	y=z;
+	printf("x in yeni degeri:%d\n",x);
+	printf("y nin yeni degeri:%d\n",y);
+	return 0;
+
+}
